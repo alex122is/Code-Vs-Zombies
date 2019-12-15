@@ -1,0 +1,6 @@
+teacher01:james:0:0:0:0:yes
+joe:joe:100:0:0:100:no
+jortega:jesse:100:0:100:100:no
+ai:ra:0:0:0:0:yes
+a:b:100:100:100:100:no
+almajohn:john:100:100:100:100:no

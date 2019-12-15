@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LessonPick3Controller">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2e7d32;">
+         <children>
+            <ScrollPane layoutX="125.0" layoutY="79.0" prefHeight="322.0" prefWidth="475.0">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="320.0" prefWidth="475.0">
+                     <children>
+                        <Button fx:id="classBtn" alignment="CENTER" layoutX="120.0" layoutY="30.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #7b1fa2;" text="Classes" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <AnchorPane fx:id="sidePane" layoutY="79.0" prefHeight="320.0" prefWidth="125.0" style="-fx-background-color: #4a0072;">
+               <children>
+                  <Label fx:id="beginLabel" alignment="CENTER" layoutX="25.0" layoutY="44.0" prefHeight="18.0" prefWidth="75.0" text="Beginner" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="interLabel" alignment="CENTER" layoutX="17.0" layoutY="76.0" prefHeight="18.0" prefWidth="90.0" text="Intermediate" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="advLabel" alignment="CENTER" layoutX="25.0" layoutY="112.0" prefHeight="18.0" prefWidth="75.0" text="Advanced" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label alignment="CENTER" layoutX="212.0" layoutY="14.0" prefHeight="50.0" prefWidth="250.0" text="Pick Your Lesson" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="goBackBtn" fitHeight="50.0" fitWidth="56.0" layoutX="38.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/backArrow.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

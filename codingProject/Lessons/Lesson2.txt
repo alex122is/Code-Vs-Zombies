@@ -1,0 +1,76 @@
+Loops
+
+**
+    Loops are used when you want to repeat a line or lines of code multiple
+    times. There are two kinds of loops we will go over, a while loop and a 
+    for loop. The following is an example of a while loop.
+**
+					count = 0
+**
+					while(count <= 5) {
+						count = count + 1
+					}
+**
+    One thing to note is the variable count. This variable is used as a
+    condition check for the while loop. As long as count is less than or equal
+    to 5, the block of code inside the loop will be executed. Inside the loop,
+    we are adding 1 to count and eventually, the condition will be false and
+    the loop will exit.
+
+**
+					count = 0;
+**
+					while(count < 3) {
+						print "Hello"
+						count = count + 1
+					}
+**
+    Lets walk through this one so we can better understand the while loop. 
+    count is initialized to the value of 0. We get to the while loop where 
+    the condition count < 3 is evaluated. count is currently equal to 0 so 0 < 3 
+    is true and the loop begins. We first print the word "Hello" and then we 
+    add 1 to count. After that, the program goes back up to the while loop 
+    condition and checks if count is still less than 3. Currently, count is 1, 
+    1 < 3 is true so the body of the loop is executed again. The program prints 
+    "Hello" once more and once again we add 1 to count. The loop will repeat 
+    one more time because 2 < 3. When we add 1 once again to count, count will
+    equal 3. The condition will be checked and because 3 < 3 is false, the loop
+    will finally stop and the program will continue to the next line after the
+    loop.
+    
+**
+    Okay, that was a lot to digest but loops are very powerful and important to 
+    learn. While it may seem easier to just type a line some number of times like
+**
+					print "Hello"
+					print "Hello"
+					print "Hello"
+**
+    to print "Hello" 3 times, but while loops are preferred when dealing with 
+    blocks of code that should be repeated a bunch of times. Lets say we want 
+    to print the numbers 1 to 1000 on the screen. It would not be a good idea 
+    to call 1000 prints. We would have 1000 lines of code just calling print. 
+    Instead, we can do the same thing in less than 7 lines.
+**
+					count = 1
+**
+					while(count <= 1000) {
+						print count
+						count = count + 1
+					}
+**
+    So be sure to use while loops whenever you can!!!
+
+Quiz Time!
+
+**
+    What will be the value of total after the following while loop?
+**
+					count = 0
+					total = 0;
+**
+					while(count < 5) {
+						total = total + count
+						count = count + 1
+					}
+

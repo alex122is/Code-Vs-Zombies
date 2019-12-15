@@ -1,0 +1,40 @@
+Classes
+
+**
+    Classes are used in programming as a way to create an object. They
+    are like blueprints to a house or a car. A house can have attributes
+    and can have functions, ex: a house can be big and can keep a 
+    family cool in the summer. The following is an example of a car
+    class.
+**
+						class Car {
+						  wheels = 4
+						  doors = 2
+**
+						  honkHorn() {
+						    print "beep"
+						  }
+						}
+**
+    We have created a class called car which has the attributes wheels
+    and doors. It also has a method that prints the word "beep". Let's
+    now use this class to create a new car object.
+    
+**
+    In order to create a new class, would write the following line.
+**
+					Car myCar = new Car()
+**
+    Now we have a car called myCar and we can use it to do many things. For
+    example, we can call the method honkHorn() to make the car honk it's
+    horn and print "beep" to the console.
+**
+					myCar.honkHorn()
+**
+    Finally, we can also access the attributes of the car and print them by
+    writing the following.
+**
+					print "the car has" + myCar.wheels + "wheels"
+**
+    This will print the sentence "the car has 4 wheels"
+    
